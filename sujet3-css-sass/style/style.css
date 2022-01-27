@@ -2,7 +2,8 @@ h1 {
   color: #f32a2a;
 }
 
-p {
-  color: #f32a2a;
+.container h2 {
+  color: #2113e6;
+  font-family: "Open Sans", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

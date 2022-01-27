@@ -1,11 +1,23 @@
 $universal-color : rgb(243, 42, 42);
-
+$secondary-color: rgb(33, 19, 230);
+$font: 'Open Sans', sans-serif;
 h1 {
-
     color: $universal-color;
+
 }
 
-p {
 
-    color: $universal-color;
+
+
+
+.container{
+
+    h2{
+        color: $secondary-color;
+        font-family: $font;
+    }
+
 }
+
+
+
