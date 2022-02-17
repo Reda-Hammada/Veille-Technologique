@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+
+<body>
+    <input id="paragraph" type ="text" onkeyup ="changeName()">
+    <input type="submit" value="add" >
+
+    <div id="para">
+
+    </div>
+
+    <script>
+        let inputText = document.getElementById('paragraph');
+        let div = document.getElementById('para');
+
+        function changeName(){
+            div.innerHTML = inputText.value;
+        }
+    
+        </script>
+</body>
+</html>
